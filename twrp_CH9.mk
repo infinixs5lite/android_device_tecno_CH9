@@ -22,7 +22,7 @@ $(call inherit-product, device/tecno/CH9/device.mk)
 PRODUCT_DEVICE := CH9
 PRODUCT_NAME := twrp_CH9
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := TECNO CH9
+PRODUCT_MODEL := TECNO Camon 18 premier
 PRODUCT_MANUFACTURER := tecno
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
