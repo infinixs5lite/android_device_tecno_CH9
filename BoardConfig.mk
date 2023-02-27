@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-CH9
+DEVICE_PATH := device/tecno/CH9
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -84,6 +84,7 @@ BOARD_SUPER_PARTITION_SIZE := 9126805504 # TODO: Fix hardcoded value
 BOARD_SUPER_PARTITION_GROUPS := tecno_dynamic_partitions
 BOARD_TECNO_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product system_ext
 BOARD_TECNO_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
+BOARD_SYSTEM_PARTITIONS_SIZE := 9122611200
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6781
